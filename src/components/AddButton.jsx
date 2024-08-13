@@ -29,8 +29,8 @@ const AddButton = () => {
         //     <Plus />
         // </div>
         <div className="tooltip" data-tip="Add Note" onClick={addNote}>
-            <button className="btn flex bg-slate-700 size-14 justify-center items-center rounded-full cursor-pointer hover:size-13 duration-200">
-                <Plus />
+            <button className="flex bg-slate-700 h-8 w-8 sm:size-14 justify-center items-center rounded-full cursor-pointer hover:size-13 duration-200">
+                <Plus size=""/>
             </button>
         </div>
     );

@@ -40,7 +40,7 @@ const Color = ({ color }) => {
         // >
         // </div>
         <div className="tooltip" data-tip={color.id} onClick={changeColor}>
-            <button className="btn bg-gray-500 size-12 rounded-full cursor-pointer hover:size-13 duration-200"
+            <button className=" bg-gray-500 h-8 w-8 sm:size-12 rounded-full cursor-pointer hover:size-13 duration-200"
                 style={{ backgroundColor: color.colorHeader }}
             ></button>
         </div>
