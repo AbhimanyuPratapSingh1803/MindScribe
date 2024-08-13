@@ -18,7 +18,7 @@ const Avatar = () => {
     }
 
     return (
-        <div className="dropdown dropdown-end absolute top-8 right-8 z-[1000]">
+        <div className="dropdown dropdown-end absolute top-8 right-1 z-[1000]">
             <div tabIndex={0} role="button" className="avatar">
                 <div className="fixed cursor-pointer top-8 right-8 ring-purple-400 ring-offset-base-100 w-10 rounded-full ring">
                     <img src={currentUser.photoURL} />
@@ -26,7 +26,7 @@ const Avatar = () => {
             </div>
             <ul
                 tabIndex={0}
-                className="dropdown-content menu bg-base-100 mt-6 rounded-box z-[1] w-52 p-2 shadow">
+                className="dropdown-content menu bg-base-100 mt-6 rounded-box z-[1] w-32 p-2 shadow">
                 <li>
                     <div>
                         <button>{currentUser.displayName}</button>

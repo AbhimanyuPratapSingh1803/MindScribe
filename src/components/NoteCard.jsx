@@ -124,6 +124,7 @@ const NoteCard = ({ note }) => {
             <div
                 className="card-header bg-[#9bd1de] rounded-t-md flex justify-between items-center p-1.5 "
                 onMouseDown={mouseDown}
+                onTouchStart={mouseDown}
                 style={{ backgroundColor: colors.colorHeader }}>
                 <div>
                     <DeleteButton id={note.id}/>
